@@ -1,0 +1,52 @@
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-dropdown-toggle {
+  background: orange;
+  color: white;
+  padding: 10px 14px;
+  border: 0px;
+  box-shadow: 0px 0px 3px orange;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dropdown-toggle:hover {
+  background-color: #218838;
+}
+.custom-dropdown-menu {
+  background: hsla(39, 100%, 68%, 1);
+  padding: 5px;
+  position: absolute;
+  top: 45px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+  height: 0;
+}
+
+.custom-dropdown-menu.show {
+  height: auto;
+}
+
+.custom-checkbox {
+  /* padding: 10px 20px; */
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.custom-checkbox .form-check-input {
+  cursor: pointer;
+}
+.custom-checkbox .form-check-input:checked {
+  background-color: #7eba03;
+  border-color: #78ba02;
+}
+.custom-checkbox:hover {
+  /* background-color: #f0f0f0; */
+}
